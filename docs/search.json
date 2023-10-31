@@ -2,15 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "politicaltwitter",
+    "title": "Masterarbeit an der Otto-Friedrich Universität Bamberg",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hier folgen einige Angaben zur Masterarbeit selbst."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Inhalt",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Kurzbeschreibung der Seite:\nDiese Seite beinhaltet zusätzliche Visualisierungen und Graphiken zur Masterarbeit."
+  },
+  {
+    "objectID": "001_Testgraphik.html",
+    "href": "001_Testgraphik.html",
+    "title": "Visualisierung 1",
+    "section": "",
+    "text": "Visualisierung 1"
   }
 ]

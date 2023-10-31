@@ -1,11 +1,5 @@
 ---
-title: "politicaltwitter"
+title: "Masterarbeit an der Otto-Friedrich Universität Bamberg"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hier folgen einige Angaben zur Masterarbeit selbst.

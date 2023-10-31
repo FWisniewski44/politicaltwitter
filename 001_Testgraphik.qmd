@@ -1,0 +1,21 @@
+---
+title: "Visualisierung 1"
+---
+
+Visualisierung 1
+
+```{r}
+#| echo: false
+#| message: false
+#| fig-align: center
+
+load(file = "daten/zwischenspeicherung/BER_alternativeZeitreihendaten.RData")
+library(tidyverse)
+library(plotly)
+testgraphik <- alternativeBER %>% ggplot(aes(dateTime, covidVirus)) +
+  geom_line() +
+  ggtitle(label = "Testgraphik", subtitle = "Verlauf über Daten") +
+  theme_bw()
+ggplotly(testgraphik)
+```
+

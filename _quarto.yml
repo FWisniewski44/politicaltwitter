@@ -3,16 +3,30 @@ project:
   output-dir: docs
 
 website:
-  title: "politicaltwitter"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Twitter als politisches System"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - section: "Home"
+      contents:
+        - index.qmd
+    - section: "Über diese Seite"
+      contents:
+        - about.qmd
+    - section: "Visualisierungen"
+      contents:
+        - 001_Testgraphik.qmd
+  search:
+    location: sidebar
+    type: textbox
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: darkly
+      light: flatly
+
     css: styles.css
     toc: true
 

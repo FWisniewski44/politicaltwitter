@@ -1,9 +1,7 @@
 ---
-title: "About"
+title: "Inhalt"
 ---
 
-About this site
+Kurzbeschreibung der Seite:
 
-```{r}
-1 + 1
-```
+Diese Seite beinhaltet zusätzliche Visualisierungen und Graphiken zur Masterarbeit.
