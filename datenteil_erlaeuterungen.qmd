@@ -1,0 +1,98 @@
+---
+title: "Näheres zur Datengrundlage"
+---
+
+Hier befinden sich nähere Informationen zur Erstellung des Medien-Datensatzes durch den Autor, der eine Hälfte der Grundlage vorliegender Masterarbeit bildet. Als Datengrundlage für die PolitikerInnen wurde auf [Schmidt et al (2022)](https://osf.io/wn48y/) zurückgegriffen.
+
+Bei vorliegenden Erläuterungen handelt es sich um eine Ergänzung des theoretischen Rahmens der Masterarbeit um eine Darlegung des praktischen Vorgehens zur weiteren und tiefergehenden Illustration.
+
+# Logik der Herangehensweise
+
+Um die Breite der Medienlandschaft in Deutschland möglichst genau abbilden zu können, wurde sich dazu entschlossen, folgende Typen von Medien aufzunehmen:
+
+-   *regionale* bzw. *lokale* Medien (z. B. örtliche Tageszeitungen)
+-   *überregionale* Medien (z. B. Zeitungen, die im gesamten Bundesgebiet ohne spezielle regionale Bindung erscheinen)
+-   *öffentlich-rechtliche* Medien (z. B. Nachrichtenmedien aus den Bundesländern, aber auch bundesweit, welche staatlich finanziert sind)
+-   *digitale* bzw. *Online*-Medien (z. B. Blogs oder nur online verfügbare Nachrichtenwebseiten)
+
+Bei dieser Bandbreite an Akteuren im medialen Spektrum nach diesem Verständnis wurde sich in der Recherche sowohl auf wissenschaftliche Publikationen als auch auf Einordnungen nicht-wissenschaftlicher Akteure gestützt.
+
+# Erhobene Größen
+
+| Größe               | Beschreibung                                                                                                                                | Werte                                                                 |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Twitter**         | Twitter-Accountname                                                                                                                         |                                                                       |
+| **Klassifizierung** | Art des Mediums                                                                                                                             | Z. B. Regionalzeitung, TV/Radio, ...                                  |
+| **Verbreitungsart** | Art des Abrufs des Mediums                                                                                                                  | "Online", "Offline" oder nur spezifisch auf Twitter                   |
+| **Gebiet**          | Verbreitungsgebiet des Mediums (allgemein)                                                                                                  | "regional" oder "überregional"                                        |
+| **InhaltThema**     | Inhaltlicher Fokus der Berichterstattung des Mediums                                                                                        | Sofern vorhanden; bezogen v. a. auf überregionale und digitale Medien |
+| **Herkunft**        | Spezifizierung des Verbreitungsgebietes                                                                                                     | Relevant für regionale Medien: Bundesländer                           |
+| **RVerkauf**        | Verkaufte Einheiten in Print und E-Paper (Quelle: IVW; Stand: Dez. 2022)                                                                    | Absolute Zahlen sofern vorhanden (Relevanz v. a. Printmedien)         |
+| **RLeser**          | Erreichte Leserschaft; Hochrechnung der Kategorie "deutschsprachig, 14+" (Quelle: Arbeitsgemeinschaft Medienanalyse agma; Stand: Dez. 2022) | Absolute Zahlen sofern vorhanden (Relevanz v. a. Printmedien)         |
+| **RVisits**         | Traffic der letzten drei Monate für Webseiten (Quelle: similarweb.de, kostenfreie Version; Stand: Januar 2023)                              | Absolute Zahlen, hochgerechnet bzw. aggregiert durch SimilarWeb¹      |
+| **Erreichbarkeit**  | Masse an Individuen, die durch das Medium erreicht werden können²                                                                           | siehe unten                                                           |
+| **NormenWerte**     | Normen und Werte des journalistischen Arbeitens im jeweiligen Medium²                                                                       | siehe unten                                                           |
+| **Geschäftsmodell** | Geschäftsmodell bzw. Finanzierungsweise des jeweiligen Mediums²                                                                             | siehe unten                                                           |
+| **Anmerkungen**     | Anmerkungen zu Aktivität, Besitzverhältnissen, etc.                                                                                         |                                                                       |
+
+: Überblick über alle erhobenen Kategorien; ¹: vgl. [SimilarWeb-Support](https://support.similarweb.com/hc/en-us/articles/212999769-Total-Visits); ²: vgl. Theorie der "discursive power" nach [Jungherr, Posegga & An (2019)](https://journals.sagepub.com/doi/full/10.1177/1940161219841543)
+
+# Erläuterungen zu Größen aus der Theorie der "discursive power"
+
+Zu den drei erhobenen Variablen Erreichbarkeit, NormenWerte und Geschäftsmodell ist zu sagen, dass diese sich auf die "discursive power"-Theorie nach [Jungherr, Posegga & An (2019)](https://journals.sagepub.com/doi/full/10.1177/1940161219841543) beziehen. Die genaue Einteilung dieser Variablen wird folglich nochmals genauer dargelegt.
+
+Eingangs ist ebenso festzuhalten, dass es ratsam ist, diese Einteilungen innerhalb der drei Größen nicht als harte Grenzziehungen zu betrachten, die eine eindeutige Differenzierung von Akteuren ermöglichen würden -- vielmehr handelt es sich um Orientierungspunkte auf einer kontinuierlichen Skala. Auf diesen Umstand weisen auch die Autoren des Papers selbst an mehreren Stellen hin.
+
+## Erreichbarkeit: Reichweite der Medien, Erreichbarkeit der Menschen durch Medien
+
+Vorliegende Arbeit hat sich bei der Benennung der Variable für den Begriff der Erreichbarkeit entschieden. Im Originalbeitrag der genannten Autoren könnte man dies jedoch auch als "Reichweite" interpretieren, nämlich jene Reichweite der Medien, die ihnen die Möglichkeit gibt, eine gewisse, unterschiedlich große Anzahl an Menschen mit ihren Beiträgen zu erreichen.
+
+Im angesprochenen Paper waren drei Kategorien vorgesehen, um die mediale Reichweite zu erfassen:
+
+1.  Etablierte Akteure
+2.  Alternative Akteure
+3.  Individuelle Akteure
+
+*Etablierte Akteure* (große Tageszeitungen, TV-Sendungen) können regelmäßig ein großes Publikum erreichen. *Alternative Akteure* (Blogs, kleinere Nachrichtenwebseiten) hätten laut Theorie ein kleineres, dafür stärker an sie gebundenes Publikum, was z. T. auch daran liegt, dass sie eher eine gewisse Meinung vertreten bzw. Partei ergreifen würden. *Individuelle Akteure* (PolitikerInnen, gesellschaftliche "opinion leaders") haben dagegen nicht die gleiche Massenwirkung wie die ersten beiden Kategorien, jedoch potentiell eine noch größere Unabhängigkeit was Themensetzung und Vergleichbares betrifft. Die diskursive Machtfülle der Akteure nimmt generell gesprochen von Kategorie 1 bis Kategorie 3 hin immer mehr ab.
+
+Die Einteilung wurde in vorliegender Arbeit übernommen, jedoch minimal modifiziert, indem die Kategorie "etablierte Akteure" nochmals unterteilt wurde. Der Hintergedanke hierbei war es, sowohl auf der überregionalen als auch auf der regionalen Ebene derartige Akteure unterscheiden zu können, die für *ihre Verhältnisse* viele Menschen zu erreichen vermögen.
+
+Andernfalls hätte das bedeutet, alle regionalen oder lokalen Medien in die Kategorie "alternative Akteure" zu sortieren, da diese zweifelsohne -- in absoluten Zahlen gedacht -- weniger Menschen erreichen können. Es wäre dennoch ein Trugschluss, wenn angenommen würde, dass lokale oder regionale Medien nicht auch einen starken Einfluss auf die jeweilige Leserschaft ausüben können. So ist es denkbar, dass z. B. eine Regionalzeitung den Großteil der Haushalte ihrer jeweiligen Region erreicht; dies wäre zwar noch immer viel weniger, als eine überregionale Tageszeitung erreichen könnte, dennoch weist diese Regionalzeitung dadurch zweifelsohne nach, dass sie *in einem ihr möglichen Rahmen* als etabliert angesehen werden muss. Es ergibt sich also folgendes Schema:
+
+| Wert  | Bezeichnung                       |
+|-------|-----------------------------------|
+| **1** | Etablierter Akteur (überregional) |
+| **2** | Etablierter Akteur (regional)     |
+| **3** | Alternativer Akteur               |
+| **4** | Individueller Akteur              |
+
+## NormenWerte: "moralischer Kompass" der Medien
+
+Die zweite Kategorie der "discursive power"-Theorie beschäftigt sich mit den Normen und Werten in der Berichterstattung medialer Akteure. Dieser moralische Kompass der Medien, dem diese folgen, gibt somit vor, welche Themen überhaupt von Interesse für einen Akteur sein könnten bzw. wie dieser die Themen in der Folge dann auch bearbeitet -- und somit auch implizit, an welches Publikum sich vorrangig gerichtet werden soll. Die Autoren identifizieren dabei erneut einen Dreiklang:
+
+1.  Objektiv-ausbalanciertes Berichten
+2.  Parteiisches Berichten
+3.  Marktgetriebenes Berichten
+
+Medien des *objektiv-ausbalancierten* Typus unternähmen demnach den Versuch, ihre Berichterstattung und Themenauswahl nach der (wahrgenommenen) gesellschaftlichen Relevanz auszurichten. Die des *parteiischen Berichtens* sortieren ihre Themen idealtypisch gesehen dahingehend aus, dass nur die aufgenommen werden, die der jeweiligen dahinterstehenden Partei (Anmerkung: dies ist nicht zwangsläufig politisch zu verstehen) dienlich sind. Im *marktgetriebenen Berichten* stehen hingegen die (wahrgenommenen) Bedürfnisse der Leserschaft im Vordergrund; d. h. hier werden schockierende und auch unterhaltende Themen aufgegriffen. Vorliegende Arbeit ergänzt dies noch um eine vierte Kategorie: jene Akteure, die nicht in eine der anderen drei Kategorien passen. Damit ergibt sich:
+
+| Wert | Bezeichnung                        |
+|------|------------------------------------|
+| 1    | Objektiv-ausbalanciertes Berichten |
+| 2    | Parteiisches Berichten             |
+| 3    | Marktgetriebenes Berichten         |
+| 4    | Nicht klassifizierbar              |
+
+## Geschäftsmodell: Wege der Finanzierung
+
+Die dritte Größe beschäftigt sich mit der jeweiligen Finanzierung des betrachteten Mediums. Dabei unterscheidet die Theorie die folgenden drei Möglichkeiten, welche unverändert auch in vorliegender Arbeit genutzt werden:
+
+| Wert | Bezeichnung                        |
+|------|------------------------------------|
+| 1    | Öffentliche Finanzierung           |
+| 2    | Kommerzielle Finanzierung          |
+| 3    | Finanzierung über Spenden; Vereine |
+
+Medien mit *öffentlicher Finanzierung* beziehen ihre Geldmittel durch staatliche Mittel oder anderweitige Organisationen der öffentlichen Hand. Diese sind besonders in Deutschland von großer Bedeutung (vgl. ARD/ZDF sowie die "dritten Programme" der jeweiligen Regionen). Bei *kommerzieller Finanzierung* wurden diejenigen Medien einsortiert, die den gängigen Mechanismen marktwirtschaftlichen Handelns unterworfen sind; d. h., dass diese zur Finanzierung des eigenen Handels auf gewissen Umsatz angewiesen sind. Schließlich erfasst die Kategorie der *Finanzierung über Spenden* bzw. über *Vereinsstrukturen* jene Medien, die z. B. durch Gelder von Großspendern oder Crowdfunding finanziert werden oder sich über eine Stiftung bzw. einen Verein Gelder erwirtschaften.
+
+Diese Hintergründe der Finanzierung verweisen auch auf einen gewissen Handlungsimpetus der jeweiligen Akteure, weshalb es sinnvoll ist, diese Größe mit zu erheben.

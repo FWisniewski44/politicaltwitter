@@ -1,0 +1,20 @@
+---
+title: "Methodisches Vorgehen"
+---
+
+# Methodik und Passung mit Zielen der Masterarbeit
+
+Die Zielsetzung der Masterarbeit ist es, wechselseitige Interaktionen medialer und politischer Akteure auf Twitter zu "kartografieren" -- d. h. in erster Linie, diese sichtbar und nachverfolgbar zu machen, um dadurch ein besseres Verständnis über...:
+
+A. ... die *Interaktionen dieser Sphären miteinander* auf Twitter zu erhalten
+
+B. ... *Twitter selbst als Medium politischer und medialer Interaktion* zu erlangen
+
+Um eine solche Analyse durchführen zu können wurde sich für ein zweistufiges Verfahren entschieden, ausgehend von den dafür mittels Webscraping erhaltenen und aufbereiteten Tweet-Daten der jeweiligen Akteure (vgl. u. a. vorherige Sektion zum Datenteil).
+
+1.  In einem ersten Schritt müssen die Themen erschlossen werden, zu welchen die jeweiligen Akteursgruppen Tweets absetzen.
+2.  In einem zweiten Schritt müssen die Tweets der Akteure diesen Themen zugeordnet werden.
+
+## Ad 1: Topic Models zur Identifizierung der Themen
+
+## Ad 2: Bag of Words-Modelle zur Klassifizierung der Tweets nach Themen

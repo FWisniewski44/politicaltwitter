@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "methodik_erlaeuterungen.html",
+    "href": "methodik_erlaeuterungen.html",
+    "title": "Methodisches Vorgehen",
+    "section": "",
+    "text": "Die Zielsetzung der Masterarbeit ist es, wechselseitige Interaktionen medialer und politischer Akteure auf Twitter zu “kartografieren” – d. h. in erster Linie, diese sichtbar und nachverfolgbar zu machen, um dadurch ein besseres Verständnis über…:\nA. … die Interaktionen dieser Sphären miteinander auf Twitter zu erhalten\nB. … Twitter selbst als Medium politischer und medialer Interaktion zu erlangen\nUm eine solche Analyse durchführen zu können wurde sich für ein zweistufiges Verfahren entschieden, ausgehend von den dafür mittels Webscraping erhaltenen und aufbereiteten Tweet-Daten der jeweiligen Akteure (vgl. u. a. vorherige Sektion zum Datenteil).\n\nIn einem ersten Schritt müssen die Themen erschlossen werden, zu welchen die jeweiligen Akteursgruppen Tweets absetzen.\nIn einem zweiten Schritt müssen die Tweets der Akteure diesen Themen zugeordnet werden."
+  },
+  {
+    "objectID": "datenteil_erlaeuterungen.html",
+    "href": "datenteil_erlaeuterungen.html",
+    "title": "Näheres zur Datengrundlage",
+    "section": "",
+    "text": "Hier befinden sich nähere Informationen zur Erstellung des Medien-Datensatzes durch den Autor, der eine Hälfte der Grundlage vorliegender Masterarbeit bildet. Als Datengrundlage für die PolitikerInnen wurde auf Schmidt et al (2022) zurückgegriffen.\nBei vorliegenden Erläuterungen handelt es sich um eine Ergänzung des theoretischen Rahmens der Masterarbeit um eine Darlegung des praktischen Vorgehens zur weiteren und tiefergehenden Illustration."
+  },
+  {
+    "objectID": "datenteil_erlaeuterungen.html#erreichbarkeit-reichweite-der-medien-erreichbarkeit-der-menschen-durch-medien",
+    "href": "datenteil_erlaeuterungen.html#erreichbarkeit-reichweite-der-medien-erreichbarkeit-der-menschen-durch-medien",
+    "title": "Näheres zur Datengrundlage",
+    "section": "Erreichbarkeit: Reichweite der Medien, Erreichbarkeit der Menschen durch Medien",
+    "text": "Erreichbarkeit: Reichweite der Medien, Erreichbarkeit der Menschen durch Medien\nVorliegende Arbeit hat sich bei der Benennung der Variable für den Begriff der Erreichbarkeit entschieden. Im Originalbeitrag der genannten Autoren könnte man dies jedoch auch als “Reichweite” interpretieren, nämlich jene Reichweite der Medien, die ihnen die Möglichkeit gibt, eine gewisse, unterschiedlich große Anzahl an Menschen mit ihren Beiträgen zu erreichen.\nIm angesprochenen Paper waren drei Kategorien vorgesehen, um die mediale Reichweite zu erfassen:\n\nEtablierte Akteure\nAlternative Akteure\nIndividuelle Akteure\n\nEtablierte Akteure (große Tageszeitungen, TV-Sendungen) können regelmäßig ein großes Publikum erreichen. Alternative Akteure (Blogs, kleinere Nachrichtenwebseiten) hätten laut Theorie ein kleineres, dafür stärker an sie gebundenes Publikum, was z. T. auch daran liegt, dass sie eher eine gewisse Meinung vertreten bzw. Partei ergreifen würden. Individuelle Akteure (PolitikerInnen, gesellschaftliche “opinion leaders”) haben dagegen nicht die gleiche Massenwirkung wie die ersten beiden Kategorien, jedoch potentiell eine noch größere Unabhängigkeit was Themensetzung und Vergleichbares betrifft. Die diskursive Machtfülle der Akteure nimmt generell gesprochen von Kategorie 1 bis Kategorie 3 hin immer mehr ab.\nDie Einteilung wurde in vorliegender Arbeit übernommen, jedoch minimal modifiziert, indem die Kategorie “etablierte Akteure” nochmals unterteilt wurde. Der Hintergedanke hierbei war es, sowohl auf der überregionalen als auch auf der regionalen Ebene derartige Akteure unterscheiden zu können, die für ihre Verhältnisse viele Menschen zu erreichen vermögen.\nAndernfalls hätte das bedeutet, alle regionalen oder lokalen Medien in die Kategorie “alternative Akteure” zu sortieren, da diese zweifelsohne – in absoluten Zahlen gedacht – weniger Menschen erreichen können. Es wäre dennoch ein Trugschluss, wenn angenommen würde, dass lokale oder regionale Medien nicht auch einen starken Einfluss auf die jeweilige Leserschaft ausüben können. So ist es denkbar, dass z. B. eine Regionalzeitung den Großteil der Haushalte ihrer jeweiligen Region erreicht; dies wäre zwar noch immer viel weniger, als eine überregionale Tageszeitung erreichen könnte, dennoch weist diese Regionalzeitung dadurch zweifelsohne nach, dass sie in einem ihr möglichen Rahmen als etabliert angesehen werden muss. Es ergibt sich also folgendes Schema:\n\n\n\nWert\nBezeichnung\n\n\n\n\n1\nEtablierter Akteur (überregional)\n\n\n2\nEtablierter Akteur (regional)\n\n\n3\nAlternativer Akteur\n\n\n4\nIndividueller Akteur"
+  },
+  {
+    "objectID": "datenteil_erlaeuterungen.html#normenwerte-moralischer-kompass-der-medien",
+    "href": "datenteil_erlaeuterungen.html#normenwerte-moralischer-kompass-der-medien",
+    "title": "Näheres zur Datengrundlage",
+    "section": "NormenWerte: “moralischer Kompass” der Medien",
+    "text": "NormenWerte: “moralischer Kompass” der Medien\nDie zweite Kategorie der “discursive power”-Theorie beschäftigt sich mit den Normen und Werten in der Berichterstattung medialer Akteure. Dieser moralische Kompass der Medien, dem diese folgen, gibt somit vor, welche Themen überhaupt von Interesse für einen Akteur sein könnten bzw. wie dieser die Themen in der Folge dann auch bearbeitet – und somit auch implizit, an welches Publikum sich vorrangig gerichtet werden soll. Die Autoren identifizieren dabei erneut einen Dreiklang:\n\nObjektiv-ausbalanciertes Berichten\nParteiisches Berichten\nMarktgetriebenes Berichten\n\nMedien des objektiv-ausbalancierten Typus unternähmen demnach den Versuch, ihre Berichterstattung und Themenauswahl nach der (wahrgenommenen) gesellschaftlichen Relevanz auszurichten. Die des parteiischen Berichtens sortieren ihre Themen idealtypisch gesehen dahingehend aus, dass nur die aufgenommen werden, die der jeweiligen dahinterstehenden Partei (Anmerkung: dies ist nicht zwangsläufig politisch zu verstehen) dienlich sind. Im marktgetriebenen Berichten stehen hingegen die (wahrgenommenen) Bedürfnisse der Leserschaft im Vordergrund; d. h. hier werden schockierende und auch unterhaltende Themen aufgegriffen. Vorliegende Arbeit ergänzt dies noch um eine vierte Kategorie: jene Akteure, die nicht in eine der anderen drei Kategorien passen. Damit ergibt sich:\n\n\n\nWert\nBezeichnung\n\n\n\n\n1\nObjektiv-ausbalanciertes Berichten\n\n\n2\nParteiisches Berichten\n\n\n3\nMarktgetriebenes Berichten\n\n\n4\nNicht klassifizierbar"
+  },
+  {
+    "objectID": "datenteil_erlaeuterungen.html#geschäftsmodell-wege-der-finanzierung",
+    "href": "datenteil_erlaeuterungen.html#geschäftsmodell-wege-der-finanzierung",
+    "title": "Näheres zur Datengrundlage",
+    "section": "Geschäftsmodell: Wege der Finanzierung",
+    "text": "Geschäftsmodell: Wege der Finanzierung\nDie dritte Größe beschäftigt sich mit der jeweiligen Finanzierung des betrachteten Mediums. Dabei unterscheidet die Theorie die folgenden drei Möglichkeiten, welche unverändert auch in vorliegender Arbeit genutzt werden:\n\n\n\nWert\nBezeichnung\n\n\n\n\n1\nÖffentliche Finanzierung\n\n\n2\nKommerzielle Finanzierung\n\n\n3\nFinanzierung über Spenden; Vereine\n\n\n\nMedien mit öffentlicher Finanzierung beziehen ihre Geldmittel durch staatliche Mittel oder anderweitige Organisationen der öffentlichen Hand. Diese sind besonders in Deutschland von großer Bedeutung (vgl. ARD/ZDF sowie die “dritten Programme” der jeweiligen Regionen). Bei kommerzieller Finanzierung wurden diejenigen Medien einsortiert, die den gängigen Mechanismen marktwirtschaftlichen Handelns unterworfen sind; d. h., dass diese zur Finanzierung des eigenen Handels auf gewissen Umsatz angewiesen sind. Schließlich erfasst die Kategorie der Finanzierung über Spenden bzw. über Vereinsstrukturen jene Medien, die z. B. durch Gelder von Großspendern oder Crowdfunding finanziert werden oder sich über eine Stiftung bzw. einen Verein Gelder erwirtschaften.\nDiese Hintergründe der Finanzierung verweisen auch auf einen gewissen Handlungsimpetus der jeweiligen Akteure, weshalb es sinnvoll ist, diese Größe mit zu erheben."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Masterarbeit an der Otto-Friedrich Universität Bamberg",
@@ -7,17 +42,17 @@
     "text": "Hier folgen einige Angaben zur Masterarbeit selbst."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Inhalt",
-    "section": "",
-    "text": "Kurzbeschreibung der Seite:\nDiese Seite beinhaltet zusätzliche Visualisierungen und Graphiken zur Masterarbeit."
-  },
-  {
     "objectID": "001_Testgraphik.html",
     "href": "001_Testgraphik.html",
     "title": "Visualisierung 1",
     "section": "",
     "text": "Visualisierung 1"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Inhalt",
+    "section": "",
+    "text": "Kurzbeschreibung der Seite:\nDiese Seite beinhaltet zusätzliche Visualisierungen und Graphiken zur Masterarbeit."
   }
 ]

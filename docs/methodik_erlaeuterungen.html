@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Twitter als politisches System - Masterarbeit an der Otto-Friedrich Universität Bamberg</title>
+<title>Twitter als politisches System - Methodisches Vorgehen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li><li class="breadcrumb-item"><a href="./index.html">Masterarbeit an der Otto-Friedrich Universität Bamberg</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./datenteil_erlaeuterungen.html">Erläuterungen: Daten und Methodik</a></li><li class="breadcrumb-item"><a href="./methodik_erlaeuterungen.html">Methodisches Vorgehen</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Masterarbeit an der Otto-Friedrich Universität Bamberg</span></a>
   </div>
 </li>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./methodik_erlaeuterungen.html" class="sidebar-item-text sidebar-link">
+  <a href="./methodik_erlaeuterungen.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Methodisches Vorgehen</span></a>
   </div>
 </li>
@@ -177,14 +177,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#methodik-und-passung-mit-zielen-der-masterarbeit" id="toc-methodik-und-passung-mit-zielen-der-masterarbeit" class="nav-link active" data-scroll-target="#methodik-und-passung-mit-zielen-der-masterarbeit">Methodik und Passung mit Zielen der Masterarbeit</a>
+  <ul class="collapse">
+  <li><a href="#ad-1-topic-models-zur-identifizierung-der-themen" id="toc-ad-1-topic-models-zur-identifizierung-der-themen" class="nav-link" data-scroll-target="#ad-1-topic-models-zur-identifizierung-der-themen">Ad 1: Topic Models zur Identifizierung der Themen</a></li>
+  <li><a href="#ad-2-bag-of-words-modelle-zur-klassifizierung-der-tweets-nach-themen" id="toc-ad-2-bag-of-words-modelle-zur-klassifizierung-der-tweets-nach-themen" class="nav-link" data-scroll-target="#ad-2-bag-of-words-modelle-zur-klassifizierung-der-tweets-nach-themen">Ad 2: Bag of Words-Modelle zur Klassifizierung der Tweets nach Themen</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Masterarbeit an der Otto-Friedrich Universität Bamberg</h1>
+<h1 class="title">Methodisches Vorgehen</h1>
 </div>
 
 
@@ -199,9 +209,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Hier folgen einige Angaben zur Masterarbeit selbst.</p>
+<section id="methodik-und-passung-mit-zielen-der-masterarbeit" class="level1">
+<h1>Methodik und Passung mit Zielen der Masterarbeit</h1>
+<p>Die Zielsetzung der Masterarbeit ist es, wechselseitige Interaktionen medialer und politischer Akteure auf Twitter zu “kartografieren” – d.&nbsp;h. in erster Linie, diese sichtbar und nachverfolgbar zu machen, um dadurch ein besseres Verständnis über…:</p>
+<p>A. … die <em>Interaktionen dieser Sphären miteinander</em> auf Twitter zu erhalten</p>
+<p>B. … <strong><em>Twitter selbst als Medium politischer und medialer Interaktion</em></strong> zu erlangen</p>
+<p>Um eine solche Analyse durchführen zu können wurde sich für ein zweistufiges Verfahren entschieden, ausgehend von den dafür mittels Webscraping erhaltenen und aufbereiteten Tweet-Daten der jeweiligen Akteure (vgl. u. a. vorherige Sektion zum Datenteil).</p>
+<ol type="1">
+<li>In einem ersten Schritt müssen die Themen erschlossen werden, zu welchen die jeweiligen Akteursgruppen Tweets absetzen.</li>
+<li>In einem zweiten Schritt müssen die Tweets der Akteure diesen Themen zugeordnet werden.</li>
+</ol>
+<section id="ad-1-topic-models-zur-identifizierung-der-themen" class="level2">
+<h2 class="anchored" data-anchor-id="ad-1-topic-models-zur-identifizierung-der-themen">Ad 1: Topic Models zur Identifizierung der Themen</h2>
+</section>
+<section id="ad-2-bag-of-words-modelle-zur-klassifizierung-der-tweets-nach-themen" class="level2">
+<h2 class="anchored" data-anchor-id="ad-2-bag-of-words-modelle-zur-klassifizierung-der-tweets-nach-themen">Ad 2: Bag of Words-Modelle zur Klassifizierung der Tweets nach Themen</h2>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
