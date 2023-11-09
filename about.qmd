@@ -1,7 +1,13 @@
 ---
-title: "Inhalt"
+title: "Inhalte auf dieser Seite"
 ---
 
-Kurzbeschreibung der Seite:
+Der Schwerpunkt der Masterarbeit liegt auf der graphischen Aufbereitung und Analyse der Daten mittels zahlreicher Visualisierungen. Hierzu erschien es angebracht, diese nicht nur lediglich auf Papier zu betrachten, sondern auch die technischen Möglichkeiten auszunutzen und jene Visualisierungen auch auf diesem Weg zugänglich zu machen.
 
-Diese Seite beinhaltet zusätzliche Visualisierungen und Graphiken zur Masterarbeit.
+Dabei seien folgende Punkte klargestellt:
+
+-   Die Visualisierungen, die auf dieser Seite aufgeführt sind, sind im Sinne eines Online-Appendix als Ergänzungen zu jenen zu sehen, die in der Abgabeform der Arbeit genutzt wurden.
+
+-   Die schriftlichen Ausführungen auf dieser Seite sind eher praktischer Natur, d. h. Vorgänge werden verkürzt dargelegt und es steht eher die praktische Umsetzung von Problemlösungen im Zentrum.
+
+Ziel ist es vorrangig, hier nochmals vereinfacht die Ziele der Arbeit klar verständlich auszudrücken, auf Besonderheiten im Bearbeitungs- und Entstehungsprozess der Arbeit einzugehen und schließlich am Zentralsten: zusätzlich ergänzende, teils interaktive Visualisierungen und graphische Aufbereitungen der Daten leichter zugänglich zu machen.

@@ -1,5 +1,8 @@
 ---
-title: "Masterarbeit an der Otto-Friedrich Universität Bamberg"
+title: "Twitter-Deutschland zwischen Medien und Politik"
+subtitle: "Eine datenintensive, computerbasierte Untersuchung der wechselseitigen Beziehungen medialer und politischer Akteure im deutschen Twitter-Kosmos"
 ---
 
-Hier folgen einige Angaben zur Masterarbeit selbst.
+Diese Webseite beinhaltet den Online-Appendix zur Masterarbeit mit dem oben genannten Titel.
+
+Sie wurde im Studiengang M. A. Politikwissenschaft mit dem Schwerpunkt Computational Social Science am Lehrstuhl für Politikwissenschaft, insbesondere Digitale Transformation der Otto-Friedrich-Universität Bamberg von Florian Wisniewski vorgelegt und durch Prof. Dr. Andreas Jungherr betreut.

@@ -10,11 +10,45 @@ A. ... die *Interaktionen dieser Sphären miteinander* auf Twitter zu erhalten
 
 B. ... *Twitter selbst als Medium politischer und medialer Interaktion* zu erlangen
 
-Um eine solche Analyse durchführen zu können wurde sich für ein zweistufiges Verfahren entschieden, ausgehend von den dafür mittels Webscraping erhaltenen und aufbereiteten Tweet-Daten der jeweiligen Akteure (vgl. u. a. vorherige Sektion zum Datenteil).
+Um eine solche Analyse durchführen zu können wurde sich für ein zweistufiges Verfahren entschieden, ausgehend von den dafür mittels Webscraping erhaltenen und aufbereiteten Tweet-Daten der jeweiligen Akteure (vgl. u. a. vorherige Sektion zum Datenteil):
 
 1.  In einem ersten Schritt müssen die Themen erschlossen werden, zu welchen die jeweiligen Akteursgruppen Tweets absetzen.
 2.  In einem zweiten Schritt müssen die Tweets der Akteure diesen Themen zugeordnet werden.
 
 ## Ad 1: Topic Models zur Identifizierung der Themen
 
+Diese Methodik wurde gewählt, um die Themen zu identifizieren, über die die Akteure der Datensätze im Querschnitt auf Twitter schreiben. Genauer spezifiziert wurde sich für die Methodik der Topic Models mittels LDA (Latent Dirichlet Allocation) entschieden.
+
+Beim Topic Modeling wird ein Dokumentenkorpus (hier: Datensatz mit allen Tweets einer Akteursgruppe) verstanden als *zusammengesetzt aus den einzelnen Dokumenten, die in ihm existieren*. Diese Dokumente (hier: Tweets) behandeln demnach einzelne Themen, die es gilt, herauszufiltern. Bei Topic Models ist das Ergebnis eine Sammlung einer zuvor deklarierten Anzahl Themen *k*, welche aus einem bestimmten Set an Worten bestehen. Um aus diesen *k* Themen dann Sinn zu erschließen, werden diese Wörter in der Auswertung durch ein Individuum betrachtet -- dies macht den qualitativen Teil der Topic Models aus.
+
+Wichtig ist darüber hinaus auch, dass ein Dokument mehr als nur ein Thema behandeln kann, i. e.: ein Tweet kann potentiell mehr als nur ein Thema besprechen. Dies ist u. a. auch ein Grund, weshalb sich für diese Herangehensweise entschieden wurde, denn die Vermutung liegt nahe, dass in Datensätzen von Medien und PolitikerInnen Themen existieren, die einige Überschneidungen miteinander aufweisen und daher auch gemeinsam in Wortmeldungen adressiert werden könnten.
+
+Ein zweiter Grund, weshalb sich für das Topic Modeling mittels LDA entschieden worden ist, liegt darin, dass durch diese Methodik quantitative und qualitative Arbeitscharakteristika miteinander verwoben werden. In einem ersten, quantitativen Analyseschritt werden die großen Datenmengen mittels eines unsupervised-learning-Modells erschlossen. Im zweiten Schritt werden aus den Ergebnissen (i. e. identifizierten Wortzusammenhängen) von Schritt eins qualitativ Lehren gezogen und Themen gebildet.
+
+**Die Herangehensweise der Masterarbeit ist dabei wie folgt und orientiert sich am CrISP-DM mit den dort implementierten Feedback-Loops:**
+
+![Schaubild zum CrISP-DM](images/crisp-dm_lifecycle-01.png){fig-align="center"}
+
+1.  **Data Preparation 1**: Scraping der Tweets der jeweiligen Akteursgruppen, anschließende Speicherung als CSV-Dateien
+2.  **Data Preparation 2**: Bereinigung der CSV-Dateien und Daten in die für LDA vorgesehene Form bringen
+3.  **Modeling**: mittels R die LDA-Modelle spezifizieren, rechnen, auswerten (quantitativer Schritt)
+4.  **Evaluation**: Ergebnisse der LDA-Modelle interpretieren (qualitativer Schritt)
+5.  **Deployment**: Übergang zu Schritt zwei des Vorgehens, Nutzung der erhaltenen Themen zur Klassifikation
+
+Zwischen diesen so beschriebenen Schritten kommt es zu den Feedback-Loops. Diese traten besonders ab dem **Teil 2 des Schrittes Data Preparation** häufiger auf und erwiesen sich als nützlich, um die Sinnhaftigkeit der durchgeführten Operationen immer wieder neu zu bewerten.
+
 ## Ad 2: Bag of Words-Modelle zur Klassifizierung der Tweets nach Themen
+
+Nachdem die Daten mit Hilfe des beschriebenen Vorgehens und der Topic Models vorbereitet wurden, wurde sich zur Klassifikation der einzelnen Tweets (d. h. zur Einteilung dieser in die erhaltenen Themen) für die Herangehensweise mittels *Bag of Words-Modellen* entschieden.
+
+Der Vorteil dieser ist es, dass hier bereits Wörter aus der Auswertung der LDA vorlagen, um die einzelnen Themen zu bestücken. Es wurde sich zunächst dafür entschieden, die "Bags" auf alle Datensätze gleich anzuwenden, um somit später gute Vergleichbarkeit zu erzielen. Dazu wurden die mittels LDA erlangten Themen sowie deren zugehörige Wörterlisten in bereingiter Form als Grundlage benutzt. Bereinigt bedeutete hier, diejenigen Wörter auszuschließen, welche ohne gedanklichen Kontext in einer späteren Zuordnung durch die Bag of Words-Modelle zu viel Ambiguität aufweisen würden; es wurden also in einem qualitativen Auswahlprozess zu diesem Grundstock an Wörtern nur diejenigen übernommen, die möglichst eindeutig ihr Thema beschrieben.
+
+**Das weitere Vorgehen gestaltete sich nun wie folgt:**
+
+1.  Erstellung eines "Wörterbuchs" bzw. einer Kategorienliste mit jeweils diese Kategorien repräsentierenden Wörtern in Python
+2.  Qualitative Ergänzung des Wörterbuches durch...:
+    1.  ... *induktive Erschließung* (potentiell) relevanter Wörter zu den jeweiligen Themen durch den Autor
+    2.  ... *deduktive Ableitung* relevanter Wörter mittels Feedback-Loops durch immer wieder neue Durchgänge der Klassifikation mit anschließender Auswertung (i. e. "Wort A wird als relevant anerkannt, also ist wahrscheinlich auch Wort B relevant, da die beiden semantisch ähnlich sind")
+    3.  ... Einbeziehung unterschiedlicher Schreibweisen von Wörtern
+
+Durch die stetige Erweiterung des Wörterbuches auf die beschriebene Weise wurde es ermöglicht, die Bag of Words-Modelle immer genauer werden zu lassen, indem falsche Klassifikationen durch Ambiguitäten und potentielles "Übersehen" eines Tweets (und damit dessen Nicht-Klassifikation) ausgeschlossen werden konnten.

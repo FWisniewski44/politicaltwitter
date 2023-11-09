@@ -20,7 +20,7 @@ Bei dieser Bandbreite an Akteuren im medialen Spektrum nach diesem Verständnis 
 # Erhobene Größen
 
 | Größe               | Beschreibung                                                                                                                                | Werte                                                                 |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+|---------------|---------------------------------------|-------------------|
 | **Twitter**         | Twitter-Accountname                                                                                                                         |                                                                       |
 | **Klassifizierung** | Art des Mediums                                                                                                                             | Z. B. Regionalzeitung, TV/Radio, ...                                  |
 | **Verbreitungsart** | Art des Abrufs des Mediums                                                                                                                  | "Online", "Offline" oder nur spezifisch auf Twitter                   |
@@ -39,7 +39,7 @@ Bei dieser Bandbreite an Akteuren im medialen Spektrum nach diesem Verständnis 
 
 # Erläuterungen zu Größen aus der Theorie der "discursive power"
 
-Zu den drei erhobenen Variablen Erreichbarkeit, NormenWerte und Geschäftsmodell ist zu sagen, dass diese sich auf die "discursive power"-Theorie nach [Jungherr, Posegga & An (2019)](https://journals.sagepub.com/doi/full/10.1177/1940161219841543) beziehen. Die genaue Einteilung dieser Variablen wird folglich nochmals genauer dargelegt.
+Zu den drei erhobenen Variablen **Erreichbarkeit**, **NormenWerte** und **Geschäftsmodell** ist zu sagen, dass diese sich auf die "discursive power"-Theorie nach [Jungherr, Posegga & An (2019)](https://journals.sagepub.com/doi/full/10.1177/1940161219841543) beziehen. Die genaue Einteilung dieser Variablen wird folglich nochmals genauer dargelegt.
 
 Eingangs ist ebenso festzuhalten, dass es ratsam ist, diese Einteilungen innerhalb der drei Größen nicht als harte Grenzziehungen zu betrachten, die eine eindeutige Differenzierung von Akteuren ermöglichen würden -- vielmehr handelt es sich um Orientierungspunkte auf einer kontinuierlichen Skala. Auf diesen Umstand weisen auch die Autoren des Papers selbst an mehreren Stellen hin.
 
@@ -76,22 +76,22 @@ Die zweite Kategorie der "discursive power"-Theorie beschäftigt sich mit den No
 
 Medien des *objektiv-ausbalancierten* Typus unternähmen demnach den Versuch, ihre Berichterstattung und Themenauswahl nach der (wahrgenommenen) gesellschaftlichen Relevanz auszurichten. Die des *parteiischen Berichtens* sortieren ihre Themen idealtypisch gesehen dahingehend aus, dass nur die aufgenommen werden, die der jeweiligen dahinterstehenden Partei (Anmerkung: dies ist nicht zwangsläufig politisch zu verstehen) dienlich sind. Im *marktgetriebenen Berichten* stehen hingegen die (wahrgenommenen) Bedürfnisse der Leserschaft im Vordergrund; d. h. hier werden schockierende und auch unterhaltende Themen aufgegriffen. Vorliegende Arbeit ergänzt dies noch um eine vierte Kategorie: jene Akteure, die nicht in eine der anderen drei Kategorien passen. Damit ergibt sich:
 
-| Wert | Bezeichnung                        |
-|------|------------------------------------|
-| 1    | Objektiv-ausbalanciertes Berichten |
-| 2    | Parteiisches Berichten             |
-| 3    | Marktgetriebenes Berichten         |
-| 4    | Nicht klassifizierbar              |
+| Wert  | Bezeichnung                        |
+|-------|------------------------------------|
+| **1** | Objektiv-ausbalanciertes Berichten |
+| **2** | Parteiisches Berichten             |
+| **3** | Marktgetriebenes Berichten         |
+| **4** | Nicht klassifizierbar              |
 
 ## Geschäftsmodell: Wege der Finanzierung
 
 Die dritte Größe beschäftigt sich mit der jeweiligen Finanzierung des betrachteten Mediums. Dabei unterscheidet die Theorie die folgenden drei Möglichkeiten, welche unverändert auch in vorliegender Arbeit genutzt werden:
 
-| Wert | Bezeichnung                        |
-|------|------------------------------------|
-| 1    | Öffentliche Finanzierung           |
-| 2    | Kommerzielle Finanzierung          |
-| 3    | Finanzierung über Spenden; Vereine |
+| Wert  | Bezeichnung                        |
+|-------|------------------------------------|
+| **1** | Öffentliche Finanzierung           |
+| **2** | Kommerzielle Finanzierung          |
+| **3** | Finanzierung über Spenden; Vereine |
 
 Medien mit *öffentlicher Finanzierung* beziehen ihre Geldmittel durch staatliche Mittel oder anderweitige Organisationen der öffentlichen Hand. Diese sind besonders in Deutschland von großer Bedeutung (vgl. ARD/ZDF sowie die "dritten Programme" der jeweiligen Regionen). Bei *kommerzieller Finanzierung* wurden diejenigen Medien einsortiert, die den gängigen Mechanismen marktwirtschaftlichen Handelns unterworfen sind; d. h., dass diese zur Finanzierung des eigenen Handels auf gewissen Umsatz angewiesen sind. Schließlich erfasst die Kategorie der *Finanzierung über Spenden* bzw. über *Vereinsstrukturen* jene Medien, die z. B. durch Gelder von Großspendern oder Crowdfunding finanziert werden oder sich über eine Stiftung bzw. einen Verein Gelder erwirtschaften.
 
